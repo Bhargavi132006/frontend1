@@ -1,7 +1,132 @@
 <html>
-    <body>
-        <h1> welcome file</h1>
-        <p> this is regarding branch concept</p>
-        <p> this is for restoring</p>
-    </body>
+    <head>
+        <title><b>Sample Forms</b></title>
+    </head>
+    <form action="#" method="get" target="_blank">
+        <table>
+            <tr>
+                <td><label>FirstName:</label></td>
+                <td><input type="text" name="fn"></td>
+            </tr>
+            <tr>
+                <td><label>LastName:</label></td>
+                <td><input type="text" name="ln"></td>
+            </tr>
+            <tr>
+                <td><label>Address:</label></td>
+                <td><textarea row="4" cols="25"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="password"> Password:</label></td>
+                <td><input type="Password" name="pwd"></td>
+            </tr>
+            <tr>
+                <td><p>Choose your favorite web language:</p></td>
+                <td>
+                    <input type="radio" name="fav_language">
+                    <label for="html">HTML</label><br>
+                    <input type="radio" name="fav_language">
+                    <label for="css">CSS</label>
+                </td>
+
+                <tr>
+                <td><p>Choose your favorite gender:</p></td>
+                <td>
+                    <input type="radio" name="gender">
+                    <label for="male">MALE</label><br>
+                    <input type="radio" name="gender">
+                    <label for="female">FEMALE</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <td><label>Hobbies:</label></td>
+            <td>
+                <input type="checkbox" name="hb1"><label>Reading</label>
+                <input type="checkbox" name="hb2"><label>Writing</label>
+                <input type="checkbox" name="hb3"><label>Watching Movies</label>
+            </td>
+            <tr>
+                <td><label>Choose your Favourate color:</label></td>
+                <td><input  type="color" name="fc"></td>
+            </tr>
+            <tr>
+                <td><label>DATE of birth:</label></td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>  <label for="datemax">Enter a date before 1980-01-01:</label></td>
+                <td><input type="date" id="datemax" name="datemax" max="1979-12-31"></td>
+            </tr>
+            <tr>
+                <td>  <label for="datemin">Enter a date after 2000-01-01:</label></td>
+                <td><input type="date" id="datemin" name="datemin" min="2000-01-02"></td>
+            </tr>
+            <tr>
+                <td><label>Sate and Time</label></td>
+                <td><input type="datetime-local" name="dnt"></td>
+            </tr>
+            <tr>
+                <td><label>File Upload:</label></td>
+                <td><input type="file" name="file"></td>
+            </tr>
+            <tr>
+                <td><label>Hidden Filed:</label></td>
+                <td><input type="hidden" id="custId" value="3487"></td>
+            </tr>
+            <tr>
+                <td><label>Month and Year</label></td>
+                <td><input type="month" name="my"></td>
+            </tr>
+            <tr>
+                <td><label>Enter age:</label></td>
+                <td><input type="number" name="age" min="18" max="20"></td>
+            </tr>
+            <tr>
+                <td><label>Enter your phone number</label></td>
+                <td><input type="number" name="number" min="6666666666"></td>
+            </tr>
+            <tr>
+                <td>Select your country:</td>
+                <td>
+                    <select>
+                        <option>INDIA</option>
+                        <option>AMERICA</option>
+                        <option>CANADA</option>
+                        <option>SINGAPORE</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">select manufactures:</label></td>
+                <td>
+                    <select>
+                         <optgroup label="Laptop manufacture"></label>
+                            <option value="dell">Dell</option>
+                            <option value="hp">HP</option>
+                        </optgroup>
+                        <optgroup label="mobile manufacture"></label>
+                            <option value="dell">mi</option>
+                            <option value="hp">Apple</option>
+                        </optgroup>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Sample Image:</label></td>
+                <td><img src="nature-wallpapers-8.jpg" width="20px" height="20px"></td>
+            </tr>
+
+
+            <tr>
+                <td><input type="submit" value="submit"></td>
+                <td><input type="reset" value="reset"></td>
+            </tr>
+            <tr>
+                <td><input type="button" onclick="alert('Hello World!')" value="Click ME!"></td>
+            </tr>
+        </table>
+        </form>
 </html>
